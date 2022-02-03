@@ -17,6 +17,6 @@ class FirstApplicationTests {
 	@GetMapping("/")
 
 	public String index() {
-		return "Hello World";
+		return "Hello Kalmyrza";
 	}
 }
