@@ -13,9 +13,5 @@ class FirstApplicationTests {
 		SpringApplication.run(FirstApplication.class, args);
 	}
 
-	@GetMapping("/")
 
-	public String index() {
-		return "Kalmyrza";
-	}
 }
